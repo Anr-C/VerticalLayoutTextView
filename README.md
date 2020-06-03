@@ -45,8 +45,14 @@
 </RelativeLayout>
 ```
 
+## 修改内容
+
+* 增加对一些字符的特殊处理
+* 增加字体设置
+
 ## 实际效果
+
 ![device-2018-03-12-214431.png-256.2kB][1]
 
 
-  [1]: http://static.zybuluo.com/Wind729/nyq641l48k6gbu998dl9iwb8/device-2018-03-12-214431.png
+[1]: ./pic/demo.png
