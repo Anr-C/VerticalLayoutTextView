@@ -50,6 +50,16 @@
 * 增加对一些字符的特殊处理
 * 增加字体设置
 
+## 已知问题 该部分计算会死循环导致崩溃 未调试 需要使用则留个心眼
+
+```
+mTextPosY > mHeight -> {
+mTextPosX = mTextPosX - mLineWidth - mLineSpace
+i--
+mTextPosY = 0
+}
+```
+
 ## 实际效果
 
 ![device-2018-03-12-214431.png-256.2kB][1]
